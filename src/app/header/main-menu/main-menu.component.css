@@ -1,0 +1,19 @@
+.ekart-menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .ekart-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ekart-menu a:hover {
+    background-color: #555;
+  }
+  

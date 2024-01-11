@@ -1,0 +1,38 @@
+/* Center-align the search bar and result */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.container:nth-child(1){
+  margin-top: 20px;
+}
+  
+  /* Style the search bar */
+  input {
+    padding: 8px;
+    border: 2px solid gray;
+    outline: none;
+  }
+ 
+  
+  .btn {
+    padding: 9.5px 12px;
+    border: none;
+  }
+  .btn-search{
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  .btn-disabled{
+    background-color: gray;
+    color: black;
+    cursor:not-allowed;
+  }
+  
+  /* Style the search result message */
+  p {
+    margin-top: 10px;
+  }
+  
