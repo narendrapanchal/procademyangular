@@ -1,0 +1,55 @@
+
+      
+      .ekart--product--item {
+        border: 1px solid #ddd;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      .ekart-wishlist-sale-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+    
+      .ekart-on-sale-tag {
+        background-color: #ff6347;
+        color: #fff;
+        padding: 5px;
+        margin-left: 5px;
+      }
+      
+      .ekart--product--image img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .ekart--add--to--price {
+        font-weight: bold;
+        color: #333;
+        margin-top: 10px;
+      }
+      
+      .ekart--product--name {
+        margin-top: 5px;
+        font-weight: bold;
+      }
+      
+      .ekart--product--category {
+        color: #888;
+        margin-top: 5px;
+      }
+      
+      .ekart--product--available-colors {
+        margin-top: 5px;
+      }
+      .ekart--add--to--wishlist{
+        display: flex;
+        justify-content:space-between;
+        padding: 0 10px;
+        margin-bottom: -60px;
+        position: relative;
+        width: 100%;
+    }
